@@ -1,4 +1,6 @@
-const flattenedArray = arr => [].concat(...arr);
-const updated = numbers.filter(element => element > 6);
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+console.log(false === '0');
+[foo, bar] = [bar, foo];
+console.log("1 && 2 = "+(1 && 2));
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
