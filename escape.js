@@ -1,1 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const repositoryRootPath = path.resolve(__dirname, '..');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
