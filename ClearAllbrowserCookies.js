@@ -1,2 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const channel = getChannel(computedAppVersion);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const isArray = (arr) => Array.isArray(arr);
