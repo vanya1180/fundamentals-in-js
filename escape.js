@@ -1,3 +1,3 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const merge = (a, b) => [...a, ...b];
+var arr3 = "jones".split('');
+const result = await makeHttpRequest(url);
