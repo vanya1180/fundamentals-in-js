@@ -1,3 +1,1 @@
-const merge = (a, b) => [...a, ...b];
-var arr3 = "jones".split('');
-const result = await makeHttpRequest(url);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
