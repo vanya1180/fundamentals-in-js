@@ -1,6 +1,3 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-[foo, bar] = [bar, foo];
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+var pattern = {};
+const value = ( 5 < 7 ) ? "True" : "False" ;
