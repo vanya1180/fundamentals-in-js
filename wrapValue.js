@@ -1,3 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const uniqueArr = (arr) => [...new Set(arr)];
-const isEven = (num) => num % 2 === 0;
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const channel = getChannel(computedAppVersion);
+const allResults = await Promise.all(items.map(async (item) => {}));
