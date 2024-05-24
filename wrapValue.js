@@ -1,2 +1,1 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
