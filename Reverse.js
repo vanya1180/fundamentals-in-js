@@ -1,3 +1,3 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-var pattern = {};
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const currentDate = () => new Date().toLocaleDateString('en-US');
