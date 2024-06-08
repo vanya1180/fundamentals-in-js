@@ -1,2 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-console.log(false === '0');
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const maxNumber = arr => Math.max(...arr);
