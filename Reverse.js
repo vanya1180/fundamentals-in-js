@@ -1,3 +1,2 @@
-var arr2 = arr1.reverse();
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-function myAPITS(someString: string, someNum: number) { ... };
+const results = await Promise.all(resultingPromises);
+[foo, bar] = [bar, foo];
