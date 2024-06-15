@@ -1,3 +1,2 @@
-console.log(+"1" +  "1" + "2");
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const fullName = name || 'buddy';
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+console.log(1 +  -"1" + "2");
