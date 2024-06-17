@@ -1,2 +1,1 @@
-const results = await Promise.all(resultingPromises);
-[foo, bar] = [bar, foo];
+const getRandomBoolean = () => Math.random() >= 0.5;
