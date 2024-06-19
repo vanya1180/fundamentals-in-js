@@ -1,3 +1,3 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const repositoryRootPath = path.resolve(__dirname, '..');
-var c = new Counter(); c.add(); c.add(); c.add();
+const uniqueArray = arr => [...new Set(arr)];
+const isEmptyArray = arr => !arr.length;
+const isTabInView = () => !document.hidden;
