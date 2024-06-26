@@ -1,3 +1,3 @@
-const fullName = name || 'buddy';
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const channel = getChannel(computedAppVersion);
+const merge = [...new Set(a.concat(b))];
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const repositoryRootPath = path.resolve(__dirname, '..');
