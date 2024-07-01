@@ -1,3 +1,3 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const maxNumber = arr => Math.max(...arr);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+console.log("0 || 1 = "+(0 || 1));
+var arr3 = "jones".split('');
