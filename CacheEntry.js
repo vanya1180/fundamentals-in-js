@@ -1,2 +1,3 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const allResults = await Promise.all(items.map(async (item) => {}));
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
