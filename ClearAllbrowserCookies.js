@@ -1,3 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-console.log("0 || 1 = "+(0 || 1));
-var arr3 = "jones".split('');
+const maxNumber = arr => Math.max(...arr);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+var c = new Counter(); c.add(); c.add(); c.add();
