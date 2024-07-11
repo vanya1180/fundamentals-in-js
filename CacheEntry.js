@@ -1,2 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const currentDate = () => new Date().toLocaleDateString('en-US');
+console.log(typeof typeof 1);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
