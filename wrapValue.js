@@ -1,1 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const reversedString = str => str.split('').reverse().join('');
+console.log(1 +  +"2" + "2");
+const buildOutputPath = path.join(repositoryRootPath, 'out');
