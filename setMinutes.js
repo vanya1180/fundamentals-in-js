@@ -1,1 +1,1 @@
-console.log(false === '0');
+var arr3 = "jones".split('');
