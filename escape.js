@@ -1,2 +1,3 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+console.log(false == '0');
+const uniqueArray = arr => [...new Set(arr)];
+const arrayContains = (arr, element) => arr.includes(element);
