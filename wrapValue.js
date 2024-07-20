@@ -1,3 +1,3 @@
-const reversedString = str => str.split('').reverse().join('');
-console.log(1 +  +"2" + "2");
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+var pattern = {};
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
