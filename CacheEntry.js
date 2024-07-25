@@ -1,3 +1,2 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+console.log(false == '0');
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
