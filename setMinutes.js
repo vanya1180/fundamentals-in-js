@@ -1,1 +1,1 @@
-var arr1 = "john".split('');
+const toggleBool = () => (bool = !bool);
