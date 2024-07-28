@@ -1,3 +1,1 @@
-console.log(false == '0');
-const uniqueArray = arr => [...new Set(arr)];
-const arrayContains = (arr, element) => arr.includes(element);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
