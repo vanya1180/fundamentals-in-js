@@ -1,1 +1,2 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const result = await makeHttpRequest(url);
+console.log(1 +  -"1" + "2");
