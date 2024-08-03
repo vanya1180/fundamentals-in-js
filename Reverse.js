@@ -1,2 +1,2 @@
-const result = await makeHttpRequest(url);
-console.log(1 +  -"1" + "2");
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const uniqueArray = arr => [...new Set(arr)];
